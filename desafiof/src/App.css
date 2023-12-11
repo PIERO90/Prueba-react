@@ -1,0 +1,116 @@
+#root {
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 350px;
+  min-height: 100vh;
+  background-color: #ffde08;
+}
+
+.header-2 {
+  background-color: #f0ea3a;
+  background-image: url("/desafiof/public/banner-simpsons.webp");
+  object-fit: cover;
+  width: 100%;
+  height: 85px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.text-center.my-4 {
+  margin-top: -2.2rem;
+}
+
+.container {
+  margin-top: 45%;
+}
+
+.card {
+  height: auto;
+  width: 100%;
+  padding: 4%;
+  gap: 2rem;
+}
+
+.card img {
+  width: 60%;
+  height: 350px;
+  object-fit: cover;
+  object-position: top;
+  margin: auto;
+}
+
+.container-fluid {
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (min-width: 576px) {
+  .text-center.my-3 {
+    margin-top: -4.5rem;
+  }
+
+  .container {
+    margin-top: 15%;
+  }
+
+  .header-2 {
+    background-color: #0bb9fe;
+    background-image: url("/desafiof/public/banner-simpsons.webp");
+    object-fit: cover;
+    width: 100%;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+
+  .container-fluid {
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+
+/* MEDIA QUERY DESKTOP */
+@media (min-width: 992px) {
+  .text-center.my-4 {
+    margin-top: -7rem;
+  }
+
+  .container {
+    margin-top: 10%;
+  }
+
+  header {
+    background-color: #0bb9fe;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin-top: -5rem;
+    padding: 1rem 2rem;
+  }
+
+  .header-2 {
+    background-color: #0bb9fe;
+    background-image: url("/desafiof/public/banner-simpsons.webp");
+    object-fit: cover;
+    width: 100%;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+
+  .container-fluid {
+    justify-content: center;
+    gap: 1rem;
+  }
+}
